@@ -35,5 +35,5 @@ end
 
 def organize_schools(hash)
   hash.group_by {|k,v| v[:location] }
-      .map {|_,v| v.replace(v.map{|h| h[0]}) }
+      .each {|_,v| v.replace(v.map{|h| h[0]}) }
 end
