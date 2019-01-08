@@ -33,6 +33,6 @@ def find_cool(arr)
   arr.select {|item| item[:temperature] == "cool"}
 end
 
-def organize_schools(arr)
-  arr.group_by {|item| item[:location] }
+def organize_schools(hash)
+  hash.group_by {|item| item[:location] }
 end
