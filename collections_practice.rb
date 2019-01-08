@@ -34,5 +34,5 @@ def find_cool(arr)
 end
 
 def organize_schools(hash)
-  puts hash.map {|k,v| v[:location] }
+  hash.map {|k,v| v[:location] }
 end
