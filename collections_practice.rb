@@ -8,7 +8,7 @@ end
 
 def first_wa(arr)
   arr.delete_if { |item| !(item.is_a? String) }
-    .find { |item| item.start_with?("wa") }
+     .find { |item| item.start_with?("wa") }
 end
 
 def remove_non_strings(arr)
