@@ -30,7 +30,7 @@ def merge_data(keys, data)
 end
 
 def find_cool(arr)
-  arr.find {|item| item["temperature"] == "cool"}
+  x =arr.find {|item| item["temperature"] == "cool"}
 end
 
 def organize_schools(arr)
