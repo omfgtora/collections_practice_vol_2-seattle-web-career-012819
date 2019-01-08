@@ -32,7 +32,7 @@ end
 def find_cool(arr)
   x = Array.new
   for each in arr
-    if each["temperature"] == "cool"
+    if each[:temperature] == "cool"
       x << each
     else
       nil
