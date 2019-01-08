@@ -34,5 +34,5 @@ def find_cool(arr)
 end
 
 def organize_schools(arr)
-  arr.map {|k,v| v }.to_h
+  arr.map {|k,v| v }
 end
