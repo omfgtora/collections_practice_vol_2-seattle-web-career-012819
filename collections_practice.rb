@@ -34,5 +34,5 @@ def find_cool(arr)
 end
 
 def organize_schools(arr)
-  arr.group_by {|item| item["location"] }
+  arr.group_by {|item| item[:location] }
 end
