@@ -22,11 +22,7 @@ def count_elements(arr)
 end
 
 def merge_data(keys, data)
-  # for each in data find a match in keys
-  data.each do |x|
-    # find match in keys
-    # insert data that matches with key
-  end
+  
 end
 
 def find_cool(arr)
