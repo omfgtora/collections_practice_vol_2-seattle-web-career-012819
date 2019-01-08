@@ -34,6 +34,4 @@ def find_cool(arr)
 end
 
 def organize_schools(arr)
-  arr.to_h
-  arr.sort_by {|k, v| v}
 end
