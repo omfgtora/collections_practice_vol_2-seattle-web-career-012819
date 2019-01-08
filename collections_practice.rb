@@ -34,5 +34,5 @@ def find_cool(arr)
 end
 
 def organize_schools(hash)
-  puts hash.group_by {|k,v| v[:location] }
+  hash.group_by {|k,v| v[:location] }.select {|item| !item[:location]
 end
