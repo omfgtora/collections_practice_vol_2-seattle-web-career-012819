@@ -30,15 +30,7 @@ def merge_data(keys, data)
 end
 
 def find_cool(arr)
-  x = Array.new
-  for each in arr
-    if each[:temperature] == "cool"
-      x << each
-    else
-      nil
-    end
-  end
-  puts x
+  arr.select
 end
 
 def organize_schools(arr)
