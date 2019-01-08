@@ -22,7 +22,7 @@ def count_elements(arr)
 end
 
 def merge_data(keys, data)
-  
+  keys.map{|k, v|, keys[k].merge(data[v[:first_name])}
 end
 
 def find_cool(arr)
